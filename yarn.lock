@@ -5119,6 +5119,13 @@ gatsby-parcel-config@^1.2.0:
     "@parcel/transformer-js" "2.6.2"
     "@parcel/transformer-json" "2.6.2"
 
+gatsby-plugin-draft@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-draft/-/gatsby-plugin-draft-0.2.0.tgz#fbfbb5c7bf7acf42dcf5f98375df21e45594dead"
+  integrity sha512-xDYLDIngc6hGLVo4ddzl0MstBobWLaCNLUKzCnwuoWiNRfAso6qucABGqBdj2htOwELw3tb8BQOn+EmgKH9+Jg==
+  dependencies:
+    moment-timezone "^0.5.33"
+
 gatsby-plugin-feed@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.2.0.tgz#5ae1ed0eda304f74a23d2355834d21e7b917ef55"
@@ -5131,6 +5138,15 @@ gatsby-plugin-feed@^5.2.0:
     gatsby-plugin-utils "^4.2.0"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
+
+gatsby-plugin-google-analytics@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.2.0.tgz#e2cd87583830bb590424765b052d9a28d829d5d6"
+  integrity sha512-3eXiuSaAV1SU5DQu5PgCkl52txQa2c6WI/B/3DQPcQqSjrPUvnoEH/Rgf93P+xo1Xffd0XpCtR7FnES05p1YWg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    minimatch "^3.1.2"
+    web-vitals "^1.1.2"
 
 gatsby-plugin-image@^3.2.0:
   version "3.2.0"
@@ -7241,7 +7257,14 @@ mkdirp@^0.5.1, mkdirp@^0.5.4:
   dependencies:
     minimist "^1.2.6"
 
-moment@^2.29.1:
+moment-timezone@^0.5.33:
+  version "0.5.39"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.39.tgz#342625a3b98810f04c8f4ea917e448d3525e600b"
+  integrity sha512-hoB6suq4ISDj7BDgctiOy6zljBsdYT0++0ZzZm9rtxIvJhIbQ3nmbgSWe7dNFGurl6/7b1OUkHlmN9JWgXVz7w==
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.29.1:
   version "2.29.4"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
@@ -10030,6 +10053,11 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
+
+web-vitals@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
+  integrity sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

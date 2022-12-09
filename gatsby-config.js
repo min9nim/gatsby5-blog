@@ -38,13 +38,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 590,
             },
           },
           {
@@ -59,6 +66,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-166776754-1`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -111,15 +124,34 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Learn, apply and share`,
+        short_name: `KeatingTechBlog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        // icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/pigmin.png`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-draft",
+      options: {
+        /**
+         * be added field name
+         * Default is 'draft'
+         **/
+        // fieldName: 'notReleased',
+        /**
+         * moment-timezone
+         * Default is 'UTC'
+         **/
+        // timezone: 'Asia/Tokyo',
+        /**
+         * publish draft posts
+         * Default is 'false'
+         **/
+        publishDraft: process.env.NODE_ENV !== "production",
       },
     },
   ],
