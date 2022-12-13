@@ -13,6 +13,7 @@ module.exports = {
     author: {
       name: `min9nim`,
       summary: `who writes practical code and builds useful things.`,
+      email: 'min9nim@gmail.com',
     },
     description: `Learn, apply and share. min9nim's tech blog.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
