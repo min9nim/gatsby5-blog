@@ -10,10 +10,7 @@ draft: false
 yarn berry 를 사용하려면 아래와 같이 사용설정이 필요하다.
 
 ```js
-yarn
-set
-version
-berry
+yarn set version berry
 ```
 
 하지만,
