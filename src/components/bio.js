@@ -48,6 +48,8 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong>
             {` - `}
+          <a href="/about">About</a>
+          {` `}
             <a href={`mailto:${author.email}`}>Email</a>
             {` `}
             <a href={`https://github.com/${social.github}`}>GitHub</a>
