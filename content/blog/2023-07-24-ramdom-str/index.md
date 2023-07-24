@@ -14,4 +14,4 @@ Math.random().toString(36).slice(2)
 ```
 
 예시)
-![](./random-js.png)
+![result](./random-js.png)
