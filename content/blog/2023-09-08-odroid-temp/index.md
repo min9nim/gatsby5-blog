@@ -9,7 +9,7 @@ draft: false
 
 odroid 에서는 lmsensors 를 사용할 수 없으며 아래와 같은 명령어를 사용한다.
 
-43125 는 43.125 도를 의미한다.
+43125 는 섭씨 43.125도를 의미한다.
 
 ```bash
 user1@ubuntu ~$ cat /sys/devices/virtual/thermal/thermal_zone0/temp
