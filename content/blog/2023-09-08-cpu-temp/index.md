@@ -28,7 +28,7 @@ CPU 온도를 기록하는 셀스크립트로서 `temp.sh` 파일을 아래와 �
 echo '' >> temp.log
 date >> temp.log
 t=$(cat /sys/devices/virtual/thermal/thermal_zone0/temp)
-echo "${t:0:2}.${t:2:3} C" >> temp.log
+echo "${t:0:2}.${t:2:1} C" >> temp.log
 cat temp.log
 ```
 <br/>
