@@ -31,6 +31,7 @@ sudo powermetrics --samplers smc | grep -i "CPU die temperature"
 
 <br/>
 <br/>
-Ref)
-https://forum.odroid.com/viewtopic.php?t=31295
-https://kr.moyens.net/how-to/184495/
+
+## Ref
+- https://forum.odroid.com/viewtopic.php?t=31295
+- https://kr.moyens.net/how-to/184495/
