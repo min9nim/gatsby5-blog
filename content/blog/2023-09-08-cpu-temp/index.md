@@ -38,25 +38,25 @@ cat temp.log
 min@ubuntu ~$ ./temp.sh
 
 Mon 11 Sep 14:05:36 KST 2023
-50.625 C
+50.6 C
 
 Mon 11 Sep 14:05:37 KST 2023
-47.777 C
+47.7 C
 
 Mon 11 Sep 14:05:38 KST 2023
-47.222 C
+47.2 C
 
 Mon 11 Sep 14:05:39 KST 2023
-46.666 C
+46.6 C
 
 Mon 11 Sep 14:05:39 KST 2023
-49.444 C
+49.4 C
 
 Mon 11 Sep 14:05:40 KST 2023
-50.000 C
+50.0 C
 
 Mon 11 Sep 14:05:41 KST 2023
-49.444 C
+49.4 C
 ```
 <br/>
 
