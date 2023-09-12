@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Unable to negotiate with 100.114.113.47 port 22: no matching host key type found'
+title: 'Unable to negotiate with xxx.xxx.xxx.xxx port 22: no matching host key type found'
 date: 2023-09-12 00:01
 tags: [mac, ssh]
 description: Mac 에서 ssh 접속시도시 발생하는 오류
