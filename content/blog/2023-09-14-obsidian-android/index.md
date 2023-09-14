@@ -19,3 +19,5 @@ https://www.techrepublic.com/article/how-to-install-git-on-android/
 이후 영구 저장소의 폴더를 생성하고 미리 준비해둔 옵시디안 깃 레포를 클론한다.
 
 https://gist.github.com/Makeshift/43c7ecb3f1c28a623ea4386552712114
+
+이후 해당 폴더를 vault 경로로 사용하면 끄읕~
