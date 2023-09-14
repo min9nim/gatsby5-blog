@@ -22,3 +22,10 @@ https://www.techrepublic.com/article/how-to-install-git-on-android/
 안드로이드에 깃 설치가 완료되었으면 영구 저장소에서 미리 준비해둔 옵시디안 깃 레포를 클론한다.
 
 이후 해당 폴더를 vault 경로로 사용하면 끄읕~
+
+
+<br/>
+<br/>
+
+### Ref.
+https://www.greghilston.com/post/how-i-use-obsidian-mobile-with-git-on-android/
