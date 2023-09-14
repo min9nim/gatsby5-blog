@@ -69,6 +69,7 @@ git config --global user.email "email"
 
 옵시디안 깃 레포를 클론
 ```bash
+cd /storage/emulated/0
 git clone https://github.com/your-account/obsidian-repo.git
 ```
 
