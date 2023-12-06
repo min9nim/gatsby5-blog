@@ -97,7 +97,7 @@ module.exports = {
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ "content:encoded": node.html }],
+                  custom_elements: [{ 'content:encoded': node.html }],
                 })
               })
             },
@@ -116,8 +116,8 @@ module.exports = {
                 }
               }
             }`,
-            output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            output: '/rss.xml',
+            title: 'Gatsby Starter Blog RSS Feed',
           },
         ],
       },
@@ -132,11 +132,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // icon: `content/assets/gatsby-icon.png`,
-        icon: `content/assets/pigmin.png`,
+        // icon: `content/assets/pigmin.png`,
+        icon: `content/assets/profile-pic.jpg`,
       },
     },
     {
-      resolve: "gatsby-plugin-draft",
+      resolve: 'gatsby-plugin-draft',
       options: {
         /**
          * be added field name
@@ -152,7 +153,7 @@ module.exports = {
          * publish draft posts
          * Default is 'false'
          **/
-        publishDraft: process.env.NODE_ENV !== "production",
+        publishDraft: process.env.NODE_ENV !== 'production',
       },
     },
   ],
